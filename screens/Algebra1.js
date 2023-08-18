@@ -72,7 +72,8 @@ export default class Algebra1 extends Component {
                 borderColor: 'white',
               }}
               textStyle={{
-                color: this.state.dropdownHeight == 170 ? 'black' : 'white'
+                color: this.state.dropdownHeight == 170 ? 'black' : 'white',
+                fontFamily: 'Bubblegum-Sans',
               }}
               onSelectItem={(item) =>
                 this.setState({
@@ -114,6 +115,7 @@ const styles = StyleSheet.create({
   appTitleText: {
     color: 'white',
     fontSize: RFValue(28),
+    fontFamily: 'Bubblegum-Sans',
     marginLeft: 100,
   },
   fieldsContainer: {
