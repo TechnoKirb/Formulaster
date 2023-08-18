@@ -75,13 +75,13 @@ const styles = StyleSheet.create({
         marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
     },
     backgroundImage: {
-        height:1000
+        height:800
     },
     routeCard: {
-        flex: 0.4,
+        flex: 0.15,
         marginLeft: 50,
         marginRight: 50,
-        marginTop: 50,
+        marginTop: 20,
         borderRadius: 30,
         backgroundColor: 'white'
     },
@@ -91,15 +91,15 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     titleText: {
-        fontSize: 40,
+        fontSize: 20,
         fontWeight: "bold",
         color: "white"
     },
     routeText: {
-        fontSize: 27,
+        fontSize: 15,
         fontWeight: "bold",
         color: "black",
-        marginTop: 75,
+        marginTop: 40,
         paddingLeft: 30
     },
     knowMore: {
@@ -117,16 +117,17 @@ const styles = StyleSheet.create({
     },
     iconImage1: {
         position: "absolute",
-        height: 200,
-        width: 200,
+        height: 100,
+        width: 100,
         resizeMode: "contain",
         right: 10,
-        top: -55
+        top: -10
     },
     iconImage2: {
         position: "absolute",
         height: 200,
         width: 150,
+        resizeMode: "none",
         right: 20,
         top: -60,
     },
