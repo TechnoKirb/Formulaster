@@ -25,7 +25,6 @@ export default class HomeScreen extends Component {
                         this.props.navigation.navigate("Algebra1")
                     }>
                         <Text style={styles.routeText}>Algebra 1</Text>
-                        <Text style={styles.knowMore}>{"Subject List --->"}</Text>
                         <Image source={require("../assets/alg1bg.png")} style={styles.iconImage1}></Image>
                     </TouchableOpacity>
 
@@ -33,31 +32,27 @@ export default class HomeScreen extends Component {
                         this.props.navigation.navigate("Geometry")
                     }>
                         <Text style={styles.routeText}>Geometry</Text>
-                        <Text style={styles.knowMore}>{"Subject List --->"}</Text>
-                        <Image source={require("../assets/geobg1.png")} style={styles.iconImage2}></Image>
+                        <Image source={require("../assets/geobg1.png")} style={styles.iconImage1}></Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("Algebra2")
                     }>
                         <Text style={styles.routeText}>Algebra 2</Text>
-                        <Text style={styles.knowMore}>{"Subject List --->"}</Text>
-                        <Image source={require("../assets/alg2bg.png")} style={styles.iconImage2}></Image>
+                        <Image source={require("../assets/alg2bg.png")} style={styles.iconImage1}></Image>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("Trigonometry")
                     }>
                         <Text style={styles.routeText}>Trigonometry</Text>
-                        <Text style={styles.knowMore}>{"Subject List --->"}</Text>
                         <Image source={require("../assets/trigbg.png")} style={styles.iconImage1}></Image>
                     </TouchableOpacity>
                     
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("Precal")
                     }>
-                        <Text style={styles.routeText}>Pre-Calc</Text>
-                        <Text style={styles.knowMore}>{"Subject List --->"}</Text>
-                        <Image source={require("../assets/precalbg.png")} style={styles.iconImage2}></Image>
+                        <Text style={styles.routeText}>Pre-Calculus</Text>
+                        <Image source={require("../assets/precalbg.png")} style={styles.iconImage1}></Image>
                     </TouchableOpacity>
                     
 
@@ -99,7 +94,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontWeight: "bold",
         color: "black",
-        marginTop: 40,
+        marginTop: 60,
         paddingLeft: 30
     },
     knowMore: {
