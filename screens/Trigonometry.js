@@ -26,7 +26,7 @@ export default class Trigonometry extends Component {
   }
   render() {
     let preview_images = {
-      image_1: require('../assets/alg2bg.png'),
+      image_1: require('../assets/trigbg.png'),
       image_2: require('../assets/Wip.png')
     };
     return (
@@ -34,7 +34,7 @@ export default class Trigonometry extends Component {
         <SafeAreaView style={styles.droidSafeArea} />
         <View style={styles.appTitle}>
           <View style={styles.appTitleTextContainer}>
-            <Text style={styles.appTitleText}>Pre-calculus</Text>
+            <Text style={styles.appTitleText}>Trigonometry</Text>
           </View>
         </View>
         <View style={styles.fieldsContainer}>
