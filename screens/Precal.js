@@ -26,7 +26,7 @@ export default class Precal extends Component {
   }
   render() {
     let preview_images = {
-      image_1: require('../assets/Wip.png'),
+      image_1: require('../assets/precalbg.png'),
       image_2: require('../assets/Wip.png')
     };
     return (
